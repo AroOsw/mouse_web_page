@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Gagalin', sans-serif;
+    background-image: url("/static/assets/img/triangles.png");
+    background-size: cover;
+    color: #FFC436;
+
+
+}
+.nav-link {
+    color: #1450A3;
+    font-size: 2rem;
+    font-weight: bold;
+
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: #950101;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.btn {
+background-color: #1450A3;
+color: black;
+font-size: 1.5rem;
+font-weight: bold;
+font-family: 'Gagalin', sans-serif;
+}
+
+.btn-danger {
+    --bs-btn-hover-bg: #191D88;
+    --bs-btn-border-color: #191D88;
+}
+
+#download-btn {
+    font-size: 3rem;
+}
+
+p {
+color: #1450A3;
+
+}
+.py-5 {
+padding-top: 1rem !important;
+}
+
+#title {
+color: #950101;
+font-family: 'Gagalin', sans-serif;
+}
