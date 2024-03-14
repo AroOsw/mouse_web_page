@@ -30,10 +30,7 @@ font-weight: bold;
 font-family: 'Gagalin', sans-serif;
 }
 
-.btn-danger {
-    --bs-btn-hover-bg: #191D88;
-    --bs-btn-border-color: #191D88;
-}
+
 
 #download-btn {
     font-size: 3rem;
@@ -41,6 +38,7 @@ font-family: 'Gagalin', sans-serif;
 
 p {
 color: #1450A3;
+
 
 }
 .py-5 {

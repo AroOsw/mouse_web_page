@@ -11,7 +11,7 @@ def index():
 
 @app.route('/download')
 def download():
-    return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")
+    return redirect("https://youtube.com/clip/Ugkxl0jWzQSdMoxlDB9xwD5652OEKyJ0RYRp?si=GYJ0Q8fGvk2JLxIk")
     #return send_from_directory('static', 'files/test.pdf', as_attachment=True)
 
 
