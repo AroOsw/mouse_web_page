@@ -4,8 +4,13 @@ body {
     background-image: url("/static/assets/img/triangles.png");
     background-size: cover;
     color: black;
+}
 
-
+@media (max-width: 576px) {
+    .d-xs-200 {
+        width: 200px !important; /* Ustawienie szerokości na 200px na małych urządzeniach */
+        margin: 0 auto; /* Centrowanie zawartości */
+    }
 }
 .nav-link {
     color: #1450A3;
